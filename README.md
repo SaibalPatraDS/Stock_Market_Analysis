@@ -63,3 +63,7 @@ For training the model, we are using LSTM algorithm.
 We are using the Sequential model, Adam optimizers, and fixing the learning rate to 0.001.
 
 We will run the model for 100 times(epoch = 100)
+
+## Visualizing the Data
+
+We will visualize Training Predictions and Observations, Testing Predictions and Observations, and Validation Predictions and Observations one by one. 

@@ -1,9 +1,13 @@
 # Stock_Market_Analysis
 ## Introduction
 1)Understand why would you need to be able to predict stock price movements;
+
 2)Download the data - You will be using stock market data gathered from Yahoo finance;
+
 3)Split train-test and validation data and also perform some data normalization;
+
 4)Motivate and briefly discuss an LSTM model as it allows to predict more than one-step ahead;
+
 5)Predict and visualize future stock market with current data
 
 

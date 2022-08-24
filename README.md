@@ -67,3 +67,19 @@ We will run the model for 100 times(epoch = 100)
 ## Visualizing the Data
 
 We will visualize Training Predictions and Observations, Testing Predictions and Observations, and Validation Predictions and Observations one by one. 
+
+Training Dataset Visualization 
+![image](https://user-images.githubusercontent.com/102281722/186483438-329837cf-fdc1-4efd-8228-bca3ac10afa0.png)
+
+Testing Dataset Visualization 
+![image](https://user-images.githubusercontent.com/102281722/186483615-fd9233b4-83f5-4fd3-9b64-5cf60bf11359.png)
+
+Validation Dataset Visualization
+![image](https://user-images.githubusercontent.com/102281722/186483697-f74be258-1f3f-4ac0-80bf-274ad1a3fcd3.png)
+
+Visualization of the entire data
+![image](https://user-images.githubusercontent.com/102281722/186483794-9ccc32e3-ee53-4964-96f4-b2ad26a1e148.png)
+
+
+
+

@@ -33,8 +33,33 @@ Low: Lowest stock price of the day
 ## Introduction to LSTMs: Making Stock Movement Predictions Far into the Future
 
 Long Short-Term Memory models are extremely powerful time-series models. They can predict an arbitrary number of steps into the future. An LSTM module (or cell) has 5 essential components which allows it to model both long-term and short-term data.
+
 Cell state (ct) - This represents the internal memory of the cell which stores both short term memory and long-term memories
+
 Hidden state (ht) - This is output state information calculated w.r.t. current input, previous hidden state and current cell input which you eventually use to predict the future stock market prices. Additionally, the hidden state can decide to only retrive the short or long-term or both types of memory stored in the cell state to make the next prediction.
+
 Input gate (it) - Decides how much information from current input flows to the cell state
+
 Forget gate (ft) - Decides how much information from the current input and the previous cell state flows into the current cell state
+
 Output gate (ot) - Decides how much information from the current cell state flows into the hidden state, so that if needed LSTM can only pick the long-term memories or short-term memories and long-term memories
+
+![image](https://user-images.githubusercontent.com/102281722/186481557-6f2553ee-08ea-418c-baa4-5fb49dfae5fd.png)
+
+## Splitting the Data
+
+For the model, we have partitioned the dataset into three parts, Training, Validation, and Testing section.
+
+Training section consists of 80% of the data.
+
+Validation part contains the data present in between 80 and 90%
+
+For testing we will use the rest of the data.
+
+## LSTM Model
+
+For training the model, we are using LSTM algorithm.
+
+We are using the Sequential model, Adam optimizers, and fixing the learning rate to 0.001.
+
+We will run the model for 100 times(epoch = 100)

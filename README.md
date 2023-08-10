@@ -1,4 +1,11 @@
 # Stock_Market_Analysis
+
+## Team Members : 
+
+1) GIRIRAJ - **2020UCA1904**
+2) VINEET KUMAR - **2020UCM2312**
+3) SAIBAL PATRA - **2020UCM2348**
+
 ## Introduction
 1)Understand why would you need to be able to predict stock price movements;
 
